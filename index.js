@@ -38,7 +38,7 @@ lead you AWAY from the dragon altogether. Which path do you take?`)
             }
     }
     else if(secondAnswer ==='away'){
-        let thirdAnswer = window.prompt('After walking a while longer, you come across a shiny blue flower. It is so beautiful that you decide you must either DRAW it or PICK it. Which do you do?'){
+        let thirdAnswer = window.prompt('After walking a while longer, you come across a shiny blue flower. It is so beautiful that you decide you must either DRAW it or PICK it. Which do you do?')
             if(thirdAnswer ==='draw'){
                 window.alert('You draw the flower, capturing only a fraction of its beauty with your quill. You bring the drawing home, somewhat disaapointed, but over time, discover joy in sharing it with your friends and family, recounting the story of your days as a sorcerer with the aid of the sketch.')
             }
@@ -47,5 +47,4 @@ lead you AWAY from the dragon altogether. Which path do you take?`)
             }
         }
     }
-}
 
