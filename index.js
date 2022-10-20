@@ -24,8 +24,28 @@ Do you FOLLOW it, or CONTINUE on your path?`)
             }
 }
 } else if(firstAnswer === 'right'){
-    let secondAnswer = window.prompt(`You come across a snoring dragon. 
-On the other side of him, you see a shiny chest of treasure. Another path would 
-lead you away from the dragon altogether. Which path do you take?`)
+let secondAnswer = window.prompt(`You come across a snoring dragon. 
+On the other side of him, you see a shiny chest of TREASURE. Another path would 
+lead you AWAY from the dragon altogether. Which path do you take?`)
+
+    if(secondAnswer ==='treasure'){
+        let thirdAnswer = window.prompt('The dragon wakes up and sits upright. You only have a moment to respond, to STAY or RUN:')
+            if(thirdAnswer ==='stay'){
+                window.alert('You and the dragon have an uplifting conversation about local politicsand become lifelong friends.')
+            }
+            else if(thirdAnswer ==='run'){
+                window.alert('Quickly, you run back to the caves entrance. Sheepish, you return home.')
+            }
+    }
+    else if(secondAnswer ==='away'){
+        let thirdAnswer = window.prompt('After walking a while longer, you come across a shiny blue flower. It is so beautiful that you decide you must either DRAW it or PICK it. Which do you do?'){
+            if(thirdAnswer ==='draw'){
+                window.alert('You draw the flower, capturing only a fraction of its beauty with your quill. You bring the drawing home, somewhat disaapointed, but over time, discover joy in sharing it with your friends and family, recounting the story of your days as a sorcerer with the aid of the sketch.')
+            }
+            else if(thirdAnswer ==='pick'){
+                window.alert('You pick the flower and bring it home, and all marvel at its brilliance. However, over time it fades and eventually crumbles to dust.')
+            }
+        }
+    }
 }
 
